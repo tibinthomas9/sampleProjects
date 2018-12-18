@@ -1,0 +1,30 @@
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="text-center m-t-lg">
+               
+               <div class="col-md-6 col-md-offset-3 gray-bg">
+                <h1>
+                   Login
+                </h1>
+                <form name="form" novalidate>
+                    <div class="form-group" >
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" name="username" />
+                        
+                    </div>
+                    <div class="form-group" >
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" name="password" />
+                        
+                    </div>
+                   <div class="form-group">
+                   <!-- <a [routerLink]="['./home']">Redirect</a> -->
+                      <button class="btn btn-primary" (click)="redirect()">Login</button>
+                   </div>   
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
