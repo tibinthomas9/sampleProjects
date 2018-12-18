@@ -1,0 +1,16 @@
+PODS:
+  - Parchment (1.4.1)
+
+DEPENDENCIES:
+  - Parchment
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Parchment
+
+SPEC CHECKSUMS:
+  Parchment: e6c2a3a0063739382dd207e21d48fe5e81f3324a
+
+PODFILE CHECKSUM: fb079188ebca3a9c88e3bf6d58ccfb91752fe20d
+
+COCOAPODS: 1.5.3
